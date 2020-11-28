@@ -1,7 +1,7 @@
 /*********************************************
  * 円周率計算 by Klingenstierna の公式
  *********************************************/
-/*#include <iostream>  // for cout
+#include <iostream>  // for cout
 #include <math.h>    // for pow()
 #include <stdio.h>   // for printf()
 #include <time.h>    // for clock()
@@ -171,4 +171,4 @@ int main()
 
     // 正常終了
     return 0;
-}*/
+}
