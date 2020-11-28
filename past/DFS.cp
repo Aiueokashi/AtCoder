@@ -1,4 +1,4 @@
-/*ll N;
+ll N;
 int dfs(string &S) {
     ll ret = 0;
     vector<char> lis = {'3', '5', '7'};
@@ -19,4 +19,4 @@ int dfs(string &S) {
         S.pop_back();
     }
     return ret;
-}*/
+}
