@@ -550,19 +550,8 @@ Circle Apporonius(const Point &p, const Point &q, DD a, DD b) {
 //即席function
 // main
 int32_t main() {
-  int a,b,c,d,e;
-  in(a,b,c,d,e);
-    vector<int> vec(10);
-    vec[0] = a + b +c;
-    vec[1] = a+b+d;
-    vec[2] = a+b+e;
-    vec[3] = a+c+d;
-    vec[4] = a+c+e;
-    vec[5] = a+d+e;
-    vec[6] = b+c+d;
-    vec[7] = b+c+e;
-    vec[8] = b+d+e;
-    vec[9] = c+d+e;
-    sort(all(vec));
-    outn(vec[7]);
+	double n, k, ans;
+	in(n, k);
+  ans = (6*(k- 1)*(n-k)+ 3*(n- 1)+ 1)/n/n/n;
+  outn(ans);
 }
